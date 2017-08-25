@@ -1,0 +1,74 @@
+div {
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+}
+
+.start, .stop, .reset {
+  cursor: pointer;
+  width: 100%
+}
+
+i {
+  cursor: pointer;
+  color: #d9534f;
+  font-size: 40px;
+}
+
+.timer {
+  font-size: 90px;
+}
+
+.background {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+body {
+  background-color: #d9534f;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+}
+
+body, html {
+  user-select: none;
+  height: 100%
+}
+
+.row {
+  justify-content: center;
+}
+
+.small {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 500px){
+  .container {
+    width: 95%;
+    height: 95%
+  }
+
+  .small {
+    font-size: 20px;
+  }
+
+  div, i {
+    font-size: 30px;
+  }
+
+  .timer {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-height: 366px){
+  .container {
+    height: auto;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2fe4f6d642.js"></script>
+    <link rel="stylesheet" src="text/css" href="pomodoro.css">
+    <script src="pomodoro.js"></script>
+    <title>Pomodoro Timer</title>
+    <link rel="icon" type="img/png" href="pomodoro.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col rounded background">
+          <div class="row">
+            <div class="col-6 text-center small">Work Length</div>
+            <div class="col-6 text-center small">Break Length</div>
+          </div>
+          <div class="row">
+            <div class="col-6 text-center">
+              <i class="fa fa-minus-circle downwork d-inline-block" aria-hidden="true"></i>
+              <div class="work d-inline-block">25</div>
+              <i class="fa fa-plus-circle upwork d-inline-block" aria-hidden="true"></i>
+            </div>
+            <div class="col-6 text-center">
+              <i class="fa fa-minus-circle downbreak d-inline-block" aria-hidden="true"></i>
+              <div class="break d-inline-block">5</div>
+              <i class="fa fa-plus-circle upbreak d-inline-block" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="timer"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="type small">Work</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 text-center">
+              <div class="start btn btn-danger">Start</div>
+              <div class="stop btn btn-danger">Stop</div>
+            </div>
+            <div class="col-6 text-center">
+              <div class="reset btn btn-danger">Reset</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
